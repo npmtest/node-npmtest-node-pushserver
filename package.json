@@ -1,1 +1,40 @@
-{     "devDependencies": {         "node-pushserver": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-node-pushserver",     "homepage": "https://github.com/npmtest/node-npmtest-node-pushserver",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-node-pushserver.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [node-pushserver (v0.5.4)](https://github.com/Smile-SA/node-pushserver) [![npm package](https://img.shields.io/npm/v/npmtest-node-pushserver.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-pushserver) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-pushserver.svg)](https://travis-ci.org/npmtest/node-npmtest-node-pushserver)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "node-pushserver": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-node-pushserver",
+    "keywords": [
+        "coverage",
+        "test",
+        "node-pushserver"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_node_pushserver.js",
+    "name": "npmtest-node-pushserver",
+    "nameAlias": "npmtest_node_pushserver",
+    "nameOriginal": "npmtest-node-pushserver",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-node-pushserver.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
