@@ -1,6 +1,6 @@
 # npmtest-node-pushserver
 
-#### test coverage for  [node-pushserver (v0.5.4)](https://github.com/Smile-SA/node-pushserver)  [![npm package](https://img.shields.io/npm/v/npmtest-node-pushserver.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-pushserver) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-pushserver.svg)](https://travis-ci.org/npmtest/node-npmtest-node-pushserver)
+#### basic test coverage for  [node-pushserver (v0.5.4)](https://github.com/Smile-SA/node-pushserver)  [![npm package](https://img.shields.io/npm/v/npmtest-node-pushserver.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-pushserver) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-pushserver.svg)](https://travis-ci.org/npmtest/node-npmtest-node-pushserver)
 
 #### Cross-platform Push Notifications. A project providing a generic API to push messages using Apple's APN and Google's GCM services.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-pushserver/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-pushserver/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-pushserver/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-pushserver/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-pushserver/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-pushserver/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-pushserver/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-pushserver/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-pushserver/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-pushserver/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-pushserver/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-pushserver/build/coverage.html/index.html)
 
